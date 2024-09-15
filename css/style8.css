@@ -1,27 +1,43 @@
+.body{
+    margin: 0;
+}
 .container{
     width: 760px;
-    overflow: hidden;
     margin: auto;
-    padding: 9px;
-    background-color: seagreen;
-}
-.box1{
-    width: 740px;
-    height: 200px;
-    padding: 9px;
+    padding: 18px;
     background-color: white;
+    box-shadow: 1px 1px 8px black ;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 9px;
 }
-.box1-1{
-    width: 250px;
-    height: 199px;
-    background-color: pink;
+.item-box{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    display: flex;
 }
-.box1-2 {
-    width: 450px;
-    height: 199px;
-    margin-left: 9px;
-    background-color: pink;
+.img-box{
+    width: 39%;
+    height: 100%;
+    background-color: rgb(81, 241, 164);
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-box{
+    width: 61%;
+    height: 100%;
+    background-color: brown;
+}
+.text-box h3{
+    text-align: center;
+    font-weight: 400;
+    color: aquamarine;
+}
+.text-box p{
+    text-align: center;
+    color: white;
 }
