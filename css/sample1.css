@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 760px;
+    margin: auto;
+    background-color: orange;
+}
+
+.menu-bar{
+    width: 100%;
+    background-color: brown;
+    display: flex;
+}
+
+.logo{
+    width: 30%;
+    background-color: seagreen;
+}
+.menu{
+    width: 70%;
+    background-color: chartreuse;
+    
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+.menu ul li a{
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+}

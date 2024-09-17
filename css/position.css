@@ -5,15 +5,35 @@
     position: relative;
     box-shadow: 1px 1px 10px ;
 }
+.box1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
 .box2{
-    width: 200px;
-    height: 80px;
-    background-color: crimson;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 255, 128, 0.46);
     position: absolute;
     margin: auto;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+
+    color: white;
+    font-size: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.box3{
+    margin: 30px 2px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url(../img/image1.png);
 }
 
