@@ -70,3 +70,44 @@
     text-align: center;
     color: aquamarine;
 }
+
+.menu-bar{
+    background-color: seagreen;
+}
+.menu-bar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar ul li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.menu-bar ul li a:hover{
+    color: salmon;
+    transition: 2s;
+}
+
+.left-menu{
+    width: 280px;
+    padding: 15px;
+    background-color: salmon;
+}
+.left-menu ul{
+    margin: o;
+    padding: 0;
+    list-style-type: none;
+}
+.left-menu ul li a {
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+}
+.left-menu ul li a:hover{
+   background-color: aquamarine;
+}
+
